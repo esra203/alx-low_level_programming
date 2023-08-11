@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 /**
- * main -Entry point
+ * main - print the last digit of value randomly generated number
+ * and whether is greater than 5,and less than 6, and 0.
  *
  * Description: print the value status
  *
@@ -11,11 +12,10 @@
 */
 int main(void)
 {
-	int n, digit;
+	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	digit = n % 10;
 
 	if ((n %  10) > 5)
 	{
