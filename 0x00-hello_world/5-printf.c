@@ -1,14 +1,10 @@
-#include <stido.h>
-
+#include <stdio.h>
 /**
- * main -Entry point 
- *
- * Description: A C program that prints  with printf funtion
- *
+ * main - Entry point 
  * Return: Always 0 (Success)
-*/
+ */
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,\n"):
-	retrun (0);
+	printf("with proper grammar, but the outcome is a piece of art,\n");
+	return (0);
 }	
