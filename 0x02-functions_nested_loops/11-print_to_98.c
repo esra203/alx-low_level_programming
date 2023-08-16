@@ -1,35 +1,17 @@
 #include "main.h"
 
 /**
- * print_to_98 - print n to 98 counts
- *           separated by comma, followed
- *           by space and nubmer should be
- *		printed in order
+ * main - check the code
  *
- * @n: input
+ * Return: Always 0.
 */
 
-void print_to_98(int n)
+int main(void)
 {
-	int i, j;
-
-	if (n <= 98)
-	{
-		for (i = n; i <= 98; i++)
-		{
-			if (i != 98)
-				printf("%d, ", i);
-			else if (i == 98)
-				printf("%d\n", i);
-		}
-	} else if (n >= 98)
-	{
-		for (j = n; j >= 98; j--)
-		{
-			if (j != 98)
-				printf("%d, ", j);
-			else if (j == 98)
-				printf("%d\n", j);
-		}
-	}
+    print_to_98(0);
+    print_to_98(98);
+    print_to_98(111);
+    print_to_98(81);
+    print_to_98(-10);
+    return (0);
 }
