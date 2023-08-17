@@ -1,7 +1,10 @@
 #include "main.h"
 
 /**
- * more_numbers - print more numbers
+ * more_numbers - print 0 - 14 times and you
+ * you can only use _putchar three times
+ *
+ * Return: always 0
 */
 
 void more_numbers(void)
@@ -16,5 +19,4 @@ void more_numbers(void)
 		}
 		_putchar ('\n');
 	}
-	return (0);
 }
