@@ -1,22 +1,22 @@
 #include "main.h"
 
 /**
- * print_most_numbers - print 0 - 9 apart 
- * 		from 2 and 4 and you can
- * 		only use _putchar twics
+ * print_most_numbers - print 0 - 9 apart
+ * from 2 and 4 and you can
+ * only use _putchar twics
  *
- * return: void
+ * return: always 0
 */
 
 void print_most_numbers(void)
 {
-	int c;
+	int num;
 
-	for (c = '0'; c <= '9'; c++)
+	for (num = '0'; num <= '9'; num++)
 	{
-		if (c == '2' || c == '4')
+		if (num == '2' || num == '4')
 			continue;
-			_putchar (c + 48);
+			_putchar (num + 48);
 	}
 	_putchar ('\n');
 }
