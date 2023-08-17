@@ -9,19 +9,19 @@
 
 void more_numbers(void)
 {
-	int i, j, k;
+	int num, row, count;
 
-	for (j = 0; j <= 10; j++)
+	for (row = 0; row <= 10; row++)
 	{
-		for (i = 0; i <= 14; i++)
+		for (count = 0; count <= 14; count++)
 		{
-			i = k
-			if (i > 9)
+			num = count;
+			if (count > 9)
 			{
 				_putchar (1 + 48);
-				k = i % 10;
+				num = count % 10;
 			}
-		_putchar (k + 48);
+			_putchar (num + 48);
 		}
 		_putchar ('\n');
 }
