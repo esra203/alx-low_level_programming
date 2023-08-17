@@ -3,8 +3,6 @@
 /**
  * more_numbers - print 0 - 14 times and you
  * you can only use _putchar three times
- *
- * Return: always 0
 */
 
 void more_numbers(void)
