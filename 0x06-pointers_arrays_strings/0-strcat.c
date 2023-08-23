@@ -5,7 +5,7 @@
  * @dest: input value
  * @src: input value
  *
- * Return: void
+ * Return: pointer to resulting string @dest
 */
 
 char *_strcat(char *dest, char *src)
@@ -20,12 +20,10 @@ char *_strcat(char *dest, char *src)
 		i++;
 	}
 	/*iterate through each src array value without the null byte*/
-	j = 0;
-	while (src[j])
+	for (j = 0; src[j]; j++)
 	{
 		/*append src[j] to dest[i] while overwrittingthe null byte in dest*/
 		dest[i++] = src[j];
-		j++;
 	}
 	return (dest);
 }
