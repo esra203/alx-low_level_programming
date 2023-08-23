@@ -10,8 +10,7 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int i;
-	int j;
+	int i, j;
 
 	i = 0;
 	/*find the size of dest array*/
