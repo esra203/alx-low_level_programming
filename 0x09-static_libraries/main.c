@@ -2,6 +2,7 @@
 
 /**
  * main - print the words
+ * Return: 0
 */
 int main(void)
 {
