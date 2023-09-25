@@ -1,8 +1,8 @@
 #include "lists.h"
 
 /**
- * print_listint - prints all the elements of a linked list
- * @h: pointer to first node
+ * print_listint - prints a linked list
+ * @h: pointer toi first node
  *
  * Return: size of list
  */
